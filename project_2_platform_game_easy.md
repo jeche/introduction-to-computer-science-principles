@@ -79,7 +79,9 @@ The detailed list for what we will use to grade your projects is below. Please r
 | Mario turns to the right on right arrow key | 5 |
 | Mario turns to the left on left arrow key | 5 |
 | Mario performs an in-place animated walk if you hold down either arrow key | 5
-| Mario jumps based on some input | 5 |
+| Mario jumps based on some input | 1 |
+| Mario returns to the ground after a few moments in the air | 2 |
+| Mario does not 'fly' if the jump input is pressed multiple times or held down | 2 |
 | There are least two scenery sprites | 5 |
 | Scenery sprites are layered with Mario (e.g. appropriate layering blocks are in your program) | 5 |
 | Scenery sprites move based on Mario’s movement | 5 |
@@ -87,10 +89,10 @@ The detailed list for what we will use to grade your projects is below. Please r
 | Scenery sprites roll over when the fall of the stage | 5 |
 | There is at least one on-ground enemy | 5 |
 | Enemy sprite always moves towards Mario | 5 |
-| Enemy sprite re-appears/rolls over correctly | 5 |
-| Enemy sprite is animated when it moves | 5 |
+| Enemy sprite re-appears/rolls over after disappearing off the edge of the screen | 5 |
+| Enemy sprite is animated when it moves so that it looks like it moving | 5 |
 | If Mario does not jump, he runs into the enemy and the game ends nicely and properly | 10 |
-| Mario can jump over the enemy | 5 |
+| Mario is capable of jumping over the enemy | 5 |
 | *Good programming #1:* Program has clear start and stop | 5 |
 | *Good programming #2:* Program is repeatable and initializes state correctly | 5 |
 | * Good programming #3:* Use of comments in your code | 5 |
